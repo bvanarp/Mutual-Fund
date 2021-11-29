@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int debt;
+    int debtArr[5]={100,200,500,90,80};
+    int i;
+    for(i=0;i<5;i++)
+    {
+        if(debtArr[i]<100)
+        {
+            cout<<"Number "<< i <<"mutual fund is good for investment "<<"\n";
+            
+        }
+        
+    }
+    getch();
+}
